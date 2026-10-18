@@ -73,11 +73,11 @@
             //                     |      |      |      |        |  |       |      |       |       |
 
             bindings = <
-&bl BL_CYCLE  &kp F1      &kp F2        &kp F3        &kp F4    &kp PRINTSCREEN                                 &studio_unlock   &kp KP_NUMLOCK   &kp SLASH        &kp ASTERISK     &kp MINUS  &kp BACKSPACE
-&trans        &kp F5      &kp F6        &kp F7        &kp F8    &bt BT_NXT                                      &trans           &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS   &kp K_CALCULATOR
-&trans        &kp F9      &kp F10       &kp F11       &kp F12   &bt BT_PRV                                      &trans           &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp EQUAL  &kp KP_ENTER
-&trans        &kp K_MUTE  &kp C_VOL_DN  &kp C_VOL_UP  &kp C_PP  &bt BT_CLR_ALL   &kp C_BRI_DEC    &kp C_BRI_UP  &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp RBKT   &kp ENTER
-                                        &trans        &trans    &trans           &trans           &trans        &trans           &trans           &trans
+&bl BL_CYCLE  &kp F1      &kp F2        &kp F3        &kp F4    &kp PRINTSCREEN                            &studio_unlock   &kp KP_NUMLOCK   &kp SLASH        &kp ASTERISK     &kp MINUS  &kp BACKSPACE
+&trans        &kp F5      &kp F6        &kp F7        &kp F8    &kp C_BRI_UP                               &trans           &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS   &kp K_CALCULATOR
+&trans        &kp F9      &kp F10       &kp F11       &kp F12   &kp C_BRI_DN                               &trans           &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp EQUAL  &kp KP_ENTER
+&trans        &kp K_MUTE  &kp C_VOL_DN  &kp C_VOL_UP  &kp C_PP  &bt BT_CLR_ALL   &bt BT_PRV    &bt BT_NXT  &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp RBKT   &kp ENTER
+                                        &trans        &trans    &trans           &trans        &trans      &trans           &trans           &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
