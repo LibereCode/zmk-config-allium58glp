@@ -1,3 +1,9 @@
+# zmk-config-allium58glp
+
+> [!NOTE]
+> [following this guide](https://keyboard-hoarders.com/pages/guides-1)
+> [keymap editing site](https://nickcoutsos.github.io/keymap-editor/)
+
 ## My shop keyboard-hoarders.com and keyboardhoarders.etsy.com
 <img width="5328" height="4000" alt="402270884-27092a5b-7a79-4b93-8dbd-51b5fb032c02" src="https://github.com/user-attachments/assets/b1f7157e-c2ac-4501-8208-147835bfd03d" />
 
