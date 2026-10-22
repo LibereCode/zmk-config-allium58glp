@@ -2,6 +2,7 @@
 
 > [!NOTE]
 > [following this guide](https://keyboard-hoarders.com/pages/guides-1)
+> 
 > [keymap editing site](https://nickcoutsos.github.io/keymap-editor/)
 
 ## My shop keyboard-hoarders.com and keyboardhoarders.etsy.com
