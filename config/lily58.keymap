@@ -16,6 +16,8 @@
 #define adjust_layer 3
 #define extra_layer 4
 
+&mt { tapping-term-ms = <123>; };
+
 / {
     keymap {
         compatible = "zmk,keymap";
